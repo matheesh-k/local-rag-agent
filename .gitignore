@@ -1,0 +1,18 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local vector database and documents
+chroma_db/
+documents/
+
+# VS Code local settings
+.vscode/
